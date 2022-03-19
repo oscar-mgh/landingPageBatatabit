@@ -395,8 +395,10 @@ main {
      color: #757575;
 }
 .plans-container--slider {
+     padding-left: 55px;
+     padding-right: 55px;
      display: flex;
-     gap: 20px;
+     gap: 55px;
      height: 320px;
      overflow-x: scroll;
      overscroll-behavior-x: contain;
@@ -406,13 +408,13 @@ main {
      position: relative;
      scroll-snap-align: center;
      width: 70%;
-     min-width: 200px;
-     max-width: 300px;
+     min-width: 210px;
+     max-width: 270px;
      height: 250px;
      margin: 50px auto 0;
      padding: 0 15px;
      background-color: var(--just-white);
-     border-radius: 15px;
+     border-radius: 11px;
      box-shadow: 0 4px 8px rgba(89,73,30,0.20);
 }
 .recommended {
@@ -449,15 +451,44 @@ main {
 }
 .plan-card--saving {
      font-size: 1.2rem;
+     font-weight: 500;
      color: #757575;
 
 }
 .plan-card--ca {
      width: 150px;
      height: 48px;
-     margin-top: 20px;
+     margin-top: 25px;
      background-color: #faf8f7;
      border: solid 2px var(--bitcoin-orange);
+     border-radius: 4px;
+     font-family: "DM Sans", sans-serif;
+     font-size: 1.4rem;
+     font-weight: bold;
+     line-height: 1.8rem;
+     color: var(--black);
+}
+.plan-card--ca-left{
+     position: relative;
+     top: 2px;
+     width: 150px;
+     height: 48px;
+     margin-top: 40px;
+     background-color: #faf8f7;
+     border: solid 2px var(--secondary-blue);
+     border-radius: 4px;
+     font-family: "DM Sans", sans-serif;
+     font-size: 1.4rem;
+     font-weight: bold;
+     line-height: 1.8rem;
+     color: var(--black);
+}
+.plan-card--ca-right{
+     width: 150px;
+     height: 48px;
+     margin-top: 40px;
+     background-color: #faf8f7;
+     border: solid 2px var(--secondary-blue);
      border-radius: 4px;
      font-family: "DM Sans", sans-serif;
      font-size: 1.4rem;
@@ -488,34 +519,6 @@ main {
      width: 20px;
      height: 20px;
      background-image: url("../icons/blue-right-arrow.svg");
-}
-.plan-card--ca-left{
-     position: relative;
-     top: 2px;
-     width: 150px;
-     height: 48px;
-     margin-top: 20px;
-     background-color: #faf8f7;
-     border: solid 2px var(--secondary-blue);
-     border-radius: 4px;
-     font-family: "DM Sans", sans-serif;
-     font-size: 1.4rem;
-     font-weight: bold;
-     line-height: 1.8rem;
-     color: var(--black);
-}
-.plan-card--ca-right{
-     width: 150px;
-     height: 48px;
-     margin-top: 20px;
-     background-color: #faf8f7;
-     border: solid 2px var(--secondary-blue);
-     border-radius: 4px;
-     font-family: "DM Sans", sans-serif;
-     font-size: 1.4rem;
-     font-weight: bold;
-     line-height: 1.8rem;
-     color: var(--black);
 }
 footer {
      display: flex;

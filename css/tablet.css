@@ -7,8 +7,9 @@
 .product-cards--container {
      display: flex;
      flex-wrap: wrap;
-     width: 930px;
+     width: 865px;
      margin: 0 auto;
+     justify-content: space-around;
 }
 .main-cards--scroll{
      display: flex;

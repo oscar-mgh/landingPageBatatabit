@@ -25,6 +25,7 @@
 html {
      font-size: 62.5%;
      font-family: "DM Sans", sans-serif;
+     min-width: 320px;
 }
 header {
      position: relative;
@@ -118,7 +119,7 @@ main {
      background-repeat: no-repeat;
 }
 .main-exchange-container--title h2 {
-     margin-bottom: 40px;
+     margin-bottom: 30px;
      font-size: 2.4rem;
      font-weight: bold;
      line-height: 2.4rem;

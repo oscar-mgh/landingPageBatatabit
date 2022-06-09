@@ -467,6 +467,7 @@ main {
      font-weight: bold;
      line-height: 1.8rem;
      color: var(--black);
+     cursor: pointer;
 }
 .plan-card--ca-left{
      position: relative;
@@ -482,6 +483,7 @@ main {
      font-weight: bold;
      line-height: 1.8rem;
      color: var(--black);
+     cursor: pointer;
 }
 .plan-card--ca-right{
      width: 150px;
@@ -495,6 +497,7 @@ main {
      font-weight: bold;
      line-height: 1.8rem;
      color: var(--black);
+     cursor: pointer;
 }
 .plan-card--ca span {
      position: relative;
